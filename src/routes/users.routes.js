@@ -11,7 +11,6 @@ usersRoutes.post("/", usersController.create)
 
 module.exports = usersRoutes
 
-
 // Criando Middleware 
 /*
 function myMiddleware(request, response, next){
